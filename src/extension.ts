@@ -31,7 +31,7 @@ export async function addModuleCommand(
   selected: Uri | undefined
 ): Promise<void> {
   const command: AddModuleCommand = new AddModuleCommand();
-  return command.addModuleCommand(selected, swa);
+  return command.addModuleCommand(selected, swa); 
 }
 
 export function activate(context: ExtensionContext): void {
